@@ -8,12 +8,7 @@
     <?php
 
 // Finds the maximum and minimum values in an array of integers.
-//This function efficiently iterates through the input array to find both the
-// maximum and minimum values. It throws an `InvalidArgumentException` if the
-// provided array is empty or contains non-numeric values.
-// @param array $array The input array of integers.
-//@return array An associative array containing keys 'max' and 'min' with the corresponding maximum and minimum values in the array.
-// @throws InvalidArgumentException If the input array is empty or contains non-numeric values.
+
 
 function findMaxMin(array $array): array
 {
